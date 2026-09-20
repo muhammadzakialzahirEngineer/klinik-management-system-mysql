@@ -13,6 +13,9 @@ Proyek ini merupakan rancangan basis data untuk mendukung operasional klinik, me
 - Manajemen stok obat beserta riwayat perubahannya
 - Pencatatan log otomatis (audit trail) untuk kunjungan dan stok obat
 
+## ERD
+<img width="571" height="267" alt="image" src="https://github.com/user-attachments/assets/69e5ab22-f39c-4e18-aa43-7c9df839cb5a" />
+
 ## 🗂️ Struktur Tabel
 
 | Tabel | Deskripsi |
@@ -29,14 +32,7 @@ Proyek ini merupakan rancangan basis data untuk mendukung operasional klinik, me
 
 ### Relasi Antar Tabel
 
-```
-pasien ──< kunjungan >── dokter
-              │
-              │            poli
-              ├──────────────┤
-              ▼
-            resep ──< detail_resep >── obat
-```
+<img width="625" height="329" alt="image" src="https://github.com/user-attachments/assets/2d1d9fb2-9c06-4c60-ad7e-d9f820a35f6c" />
 
 - `kunjungan` mereferensikan `pasien`, `dokter`, dan `poli`
 - `resep` mereferensikan `kunjungan` dan `poli`
