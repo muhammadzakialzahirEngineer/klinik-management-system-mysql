@@ -32,7 +32,7 @@ Proyek ini merupakan rancangan basis data untuk mendukung operasional klinik, me
 | `log_kunjungan` | Log otomatis setiap ada kunjungan baru |
 | `log_stok_obat` | Log otomatis setiap ada perubahan stok obat |
 
-### Relasi Antar Tabel
+## Relasi Antar Tabel
 
 <p align="center">
 <img width="625" height="329" alt="image" src="https://github.com/user-attachments/assets/2d1d9fb2-9c06-4c60-ad7e-d9f820a35f6c" />
